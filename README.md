@@ -1,16 +1,16 @@
 # AI-Algorithms
 
-Repositorio de **notebooks de aprendizaje automático** para la materia **Taller de Procesamiento de Señales**.  
-Incluye implementaciones y experimentos con algoritmos clásicos de *ML* (clasificación, regresión, clustering y reducción de dimensionalidad), con enfoque práctico y reproducible.
+Repository of **machine learning notebooks** for the **Signal Processing Workshop** course.
+Includes implementations and experiments with classic ML algorithms (classification, regression, clustering, and dimensionality reduction), with a practical and reproducible approach.
 
 ---
 
-## 📂 Estructura del proyecto
+## 📂 Project structure
 
 ```text
 AI-Algorithms/
 │
-├─ Algorithms/ # Notebooks por algoritmo
+├─ Algorithms/ # Notebooks by algorithm
 │ ├─ LinearRegression.ipynb 
 │ ├─ LogisticRegression.ipynb
 │ ├─ LDA_QDA_kNN.ipynb
@@ -28,41 +28,41 @@ AI-Algorithms/
 └─ README.md
 ```
 
-> Los nombres de los notebooks indican el método principal trabajado.
+> The notebook names indicate the main method covered.
 
 ---
 
 ## 🧠 Contenido por tema
 
-| Orden | Tema                                    | Notebook(s) asociado(s)             | Descripción breve |
-|-------|-----------------------------------------|--------------------------------------|-------------------|
-| 1     | Regresión Lineal, GD                    | `LinearRegression.ipynb`             | Regresión lineal y gradiente descendente. |
-| 2     | Regresión Logística                     | `LogisticRegression.ipynb`          | Clasificación binaria. |
-| 3     | LDA, QDA y kNN                           | `LDA_QDA_kNN.ipynb`                   | Clasificadores lineales, cuadráticos y vecinos cercanos. |
-| 4     | SVM                                     | `SVM.ipynb`                          | Máquinas de vectores de soporte y kernels. |
-| 5     | CART y Random Forest                    | `CART.ipynb`                         | Árboles y bósques de clasificación y regresión. |
-| 6     | PCA y k-Means                             | `PCA.ipynb`, `EM_kMeans.ipynb`       | Reducción de dimensionalidad y clustering. |
-| 7     | EM                    | `EM_kMeans.ipynb`                    | Expectation-Maximization y análisis factorial. |
-| 8     | Aplicaciones                            | `LLM_SR.ipynb`                 | Modelos del lenguaje natural y sistemas de recomendación |
-| 9    | GNB y MNB                                | `NaiveBayes.ipynb`                    | Clasificadores Naive Bayes gaussiano y multinomial. |
-| 10    | GVB                                     | `VariationalBayes.ipynb`             | Inferencia variacional bayesiana. |
-| 11    | Muestreo y PyMC                          | `PyMC.ipynb`                          | Modelado bayesiano y muestreo MCMC. |
+| Order | Topic                  | Associated notebook(s)         | Short description                                    |
+| ----- | ---------------------- | ------------------------------ | ---------------------------------------------------- |
+| 1     | Linear Regression      | `LinearRegression.ipynb`       | Linear regression and gradient descent.              |
+| 2     | Logistic Regression    | `LogisticRegression.ipynb`     | Binary classification.                               |
+| 3     | LDA, QDA, and kNN      | `LDA_QDA_kNN.ipynb`            | Linear, quadratic, and nearest neighbor classifiers. |
+| 4     | SVM                    | `SVM.ipynb`                    | Support vector machines and kernels.                 |
+| 5     | CART and Random Forest | `CART.ipynb`                   | Classification and regression trees and forests.     |
+| 6     | PCA and k-Means        | `PCA.ipynb`, `EM_kMeans.ipynb` | Dimensionality reduction and clustering.             |
+| 7     | EM                     | `EM_kMeans.ipynb`              | Expectation-Maximization and factor analysis.        |
+| 8     | Applications           | `LLM_SR.ipynb`                 | Natural language models and recommendation systems.  |
+| 9     | GNB and MNB            | `NaiveBayes.ipynb`             | Gaussian and multinomial Naive Bayes classifiers.    |
+| 10    | GVB                    | `VariationalBayes.ipynb`       | Bayesian variational inference.                      |
+| 11    | Sampling and PyMC      | `PyMC.ipynb`                   | Bayesian modeling and MCMC sampling.                 |
 
 ---
 
-## ✅ Requisitos
+## ✅ Requirements
 
 - **Python** 3.10+  
 - **Jupyter** Notebook, **Google Collab**, etc.
 
-### Paquetes principales
+### Main packages
 
 ```bash
 pip install -U pip
 pip install numpy pandas scikit-learn matplotlib seaborn scipy sklearn
 ```
 
-### Paquetes adicionales
+### Additional packages
 
 ```bash
 # Para modelos bayesianos
@@ -71,27 +71,27 @@ pip install pymc arviz
 
 ---
 
-## 🚀 Cómo empezar
+## 🚀 Getting started
 
 ```bash
-# 1) Clonar
+# 1) Clone
 git clone https://github.com/felipeperassi/AI-Algorithms.git
 cd AI-Algorithms
 
-# 2) Instalar dependencias
+# 2) Install dependencies
 pip install -U pip
 pip install numpy pandas scikit-learn matplotlib seaborn scipy sklearn
 
-# 3) Abrir Jupyter, Google Collab o tu editor de preferencia
+# 3) Open Jupyter, Google Colab, or your preferred editor
 jupyter notebook
 ```
 
-> Abrí cualquier notebook dentro de Algorithms/ y ejecutá las celdas en orden.
+> Open any notebook inside Algorithms/ and run the cells in order.
 
-> Cada notebook incluye celdas de **setup → preprocesamiento → entrenamiento → evaluación → conclusiones**.
+> Each notebook includes cells for **setup → preprocessing → training → evaluation → conclusions**.
 
 ---
 
-## 📄 Licencia
+## 📄 Licence
 
-Distribuido bajo licencia MIT. Ver `LICENSE` para más información.
+Distributed under the MIT License. See `LICENSE` for more information.
